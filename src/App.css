@@ -1,0 +1,26 @@
+/*******************************************************************************
+* File:    styles.css
+* Summary: Not used much at the moment, as I am just trying to get to the page
+*          to be functional.
+*******************************************************************************/
+
+/* https://www.kirupa.com/html5/make_body_take_up_full_browser_height.html */
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+/* Center the content vertically and horizontally */
+.main_content {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_border{
+    border-style: outset;
+}

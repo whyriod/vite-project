@@ -1,0 +1,30 @@
+import React from "react";
+
+    function Form({e, handleClick}) {
+      return (<form>
+          <label htmlFor="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" /> <br />
+
+          <label htmlFor="lname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" /><br />
+
+          <label htmlFor="street">Street:</label><br />
+          <input type="text" id="street" name="street" /><br />
+
+          <label htmlFor="city">City:</label><br />
+          <input type="text" id="city" name="city" /><br />
+
+          <label htmlFor="state">State:</label><br />
+          <input type="text" id="state" name="state" /><br />
+
+          <label htmlFor="zip">Zip Code:</label><br />
+          <input type="text" id="zip" name="zip" /><br />
+
+          <br />
+          <button onClick={e => {
+    handleClick(e);
+  }}>Submit</button> <br />
+      </form>);
+    }
+  
+  

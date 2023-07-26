@@ -1,0 +1,27 @@
+{
+    "questions":[
+        {
+            "userId": "1",
+            "id": "1",
+            "questionText": "Which street does cosmo cougar live by?",
+            "answers": [
+                {
+                    "id": "1",
+                    "text": "Cougar Blvd"
+                },
+                {
+                    "id": "2",
+                    "text": "Drury Lane"
+                },
+                {
+                    "id": "3",
+                    "text": "Wall Street"
+                },
+                {
+                    "id": "4",
+                    "text": "Seasame Street"
+                }
+            ]
+        }
+    ]
+}
